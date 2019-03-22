@@ -12,11 +12,10 @@ permalink: /about/
 
 ## 联系
 
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
+QQ: 504996366
+WX: chequan
 
-## Skill Keywords
+## 技能
 
 {% for category in site.data.skills %}
 ### {{ category.name }}

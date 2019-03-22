@@ -1,19 +1,13 @@
-- name: Software Engineer Keywords
+- name: ºó¶Ë
   keywords:
       - Java
-      - C++
-      - Python
-      - Design Patterns
+      - Spring Boot
 
-- name: Mobile Developer Keywords
+- name: Ç°¶Ë
   keywords:
-      - Android
-      - Reverse Engineering
+      - Css
+      - Html
+      - Vue
+      - Jquery
 
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+
