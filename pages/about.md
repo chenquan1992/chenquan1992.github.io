@@ -12,7 +12,7 @@ permalink: /about/
 
 ## 联系
 
-QQ: 504996366  
+QQ: 504996366              
 WX: chequan
 
 ## 技能
