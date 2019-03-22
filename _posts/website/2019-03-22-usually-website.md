@@ -9,3 +9,5 @@ keywords: 模板网站
 抄袭是最隆重的赞美。
 
 ## 1、[外国网页模板](https://colorlib.com/wp/free-html5-contact-form-templates/)
+## 2、[微信公众号debugger](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandboxndex)
+## 3、[微信清除缓存](debugx5.qq.com)
