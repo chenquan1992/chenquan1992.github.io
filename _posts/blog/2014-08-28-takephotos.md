@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 测试使用 Markdown 的语法
+title: 摄影教训总结
 categories: Blog
-description: 测试学习使用发布博客
-keywords: 学习, 测试, 博客
+description: 历次出游摄影的一些失败的点。
+keywords: 摄影, 教训
 ---
 
 # atx-style 一级标题
