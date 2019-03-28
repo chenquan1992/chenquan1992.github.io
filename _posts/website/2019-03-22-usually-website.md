@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 模板网站
+title: 资源网站
 categories: 常用网站
 description: 抄袭是最隆重的赞美。
-keywords: 模板网站
+keywords: 资源网站
 ---
 
 抄袭是最隆重的赞美。
