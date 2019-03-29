@@ -11,6 +11,6 @@ keywords: IDEA, Java
 ## Q&A
 
 ### 解决从别人的 Github 上 copy 下来之后无法 copy 到自己的 Github 上
-右键项目根目录 —— Git —— Repository —— Remotes（先修改上传的地址）
+右键项目根目录 —— Git —— Repository —— Remotes（先修改上传的地址）  
 右键项目根目录 —— Git —— Repository —— Push（直接全部就更新上去了）
 
