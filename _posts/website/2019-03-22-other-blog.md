@@ -11,3 +11,4 @@ keywords: 模板网站
 ## 1、[Markdown 基本语法](https://www.jianshu.com/p/191d1e21f7ed)
 ## 2、[IDEA下 Spring Boot 显示 Run Dashboard 面板](https://www.cnblogs.com/sansamh/p/8978672.html)
 ## 3、[RabbitMQ 安装、启动](https://blog.csdn.net/nnsword/article/details/79544349)
+## 4、[consul在windows下安装](https://blog.csdn.net/forezp/article/details/70188595)
