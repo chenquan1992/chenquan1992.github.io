@@ -1,0 +1,33 @@
+---
+layout: post
+title: Vue
+categories: Vue 技巧
+description: Vue 技巧
+keywords: Vue 技巧
+---
+
+***有些傻话，不但是要背着人说，还得背着自己。让自己听见了也怪难为情的。譬如说，我爱你，我一辈子都爱你。***
+
+1、Vue 获取当前点击元素的父元素，当前点击元素的父元素的所有子元素，循环中的第几个元素
+```
+<div class="publishimg clear" v-show="item.postimageArr != null && item.postimageArr.length>0">
+    <img  :src="value" alt="" @click = "imgClick($event,num)"  v-for="(value,num) in item.postimageArr" :key="num"
+         :class="{releaseimg : item.postimageArr.length >= 2 ? true : false}">
+</div>
+
+ methods: {
+        imgClick:function (e,num) {
+            console.log("当前是第几个："+num) 
+            console.log(e.target.parentNode) //获取当前点击元素的父元素
+            console.log(e.target.parentNode.childNodes) //当前点击元素的父元素的所有子元素
+            // e.target //是你当前点击的元素
+            // e.currentTarget //是你绑定事件的元素
+            var imgs = e.target.parentNode.childNodes;
+            for(var  i=0;i<imgs.length;i++){
+                console.log(imgs[i].currentSrc) //获取某一属性值，这里的是图片的 url 
+            }
+        },
+    }
+```
+
+
