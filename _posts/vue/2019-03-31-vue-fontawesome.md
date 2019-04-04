@@ -48,9 +48,9 @@ library.add(faAddressBook)
 library.add(faAddressCard)
 ```
 
-4、小记
-答：搜索得来的样式是 <i class="fas fa-address-book"></i>，这时候 fa-address-book 改为驼峰型，即：faAddressBook
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
-library.add(faAddressBook)
-<font-awesome-icon icon="address-book" />
-这样就可以使用
+4、小记  
+答：搜索得来的样式是 <i class="fas fa-address-book"></i>，这时候 fa-address-book 改为驼峰型，即：faAddressBook  
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'  
+library.add(faAddressBook)  
+<font-awesome-icon icon="address-book" />  
+这样就可以使用  
