@@ -8,6 +8,9 @@ keywords: Vue Fontawesome
 
 ***我爱你，关你什么事？千怪万怪也怪不到你身上去。***
 
+## 1、[Fontawesome Github 地址](https://github.com/FortAwesome/vue-fontawesome#get-started)
+## 2、[Fontawesome 搜索图标地址](https://fontawesome.com/icons?d=gallery&m=free)
+
 1、先安装
 ```
 $ npm i --save @fortawesome/fontawesome-svg-core
@@ -44,3 +47,10 @@ library.add(faUserSecret)
 library.add(faAddressBook)
 library.add(faAddressCard)
 ```
+
+4、小记
+答：搜索得来的样式是 <i class="fas fa-address-book"></i>，这时候 fa-address-book 改为驼峰型，即：faAddressBook
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
+library.add(faAddressBook)
+<font-awesome-icon icon="address-book" />
+这样就可以使用
