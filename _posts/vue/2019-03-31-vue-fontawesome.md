@@ -33,19 +33,25 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 ```vue
 <template>
   <div id="app">
+        <!--第一种写法-->
        <font-awesome-icon icon="user-secret" />
        <font-awesome-icon icon="address-book" />
        <font-awesome-icon icon="address-card" />
+       <!--第二种写法：fas、fab 是前缀，省略了 fa-->
+        <font-awesome-icon :icon="['fas','address-card']"/>  
+        <font-awesome-icon :icon="['fab','weixin']"/>
   </div>
 </template>
 ```
 ```vuejs
+// 两种不同的库
 import { faUserSecret,faAddressBook,faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faWeixin } from '@fortawesome/free-brands-svg-icons'           
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-library.add(faUserSecret)
-library.add(faAddressBook)
-library.add(faAddressCard)
+// 都必须要 library 才能使用
+library.add(faUserSecret,faAddressBook,faAddressCard,faWeixin)
 ```
 
 4、小记  
@@ -53,4 +59,4 @@ library.add(faAddressCard)
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'  
 library.add(faAddressBook)  
 <font-awesome-icon icon="address-book" />  
-这样就可以使用  
+这样就可以使用，一共三个步骤    
