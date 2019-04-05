@@ -40,6 +40,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
        <!--第二种写法：fas、fab 是前缀，省略了 fa-->
         <font-awesome-icon :icon="['fas','address-card']"/>  
         <font-awesome-icon :icon="['fab','weixin']"/>
+        <i class="fas fa-address-book"></i> <!--案例，需要改写-->
   </div>
 </template>
 ```
@@ -55,7 +56,7 @@ library.add(faUserSecret,faAddressBook,faAddressCard,faWeixin)
 ```
 
 4、小记  
-答：搜索得来的样式是 <i class="fas fa-address-book"></i>，这时候 fa-address-book 改为驼峰型，即：faAddressBook  
+答：搜索得来的样式是 ```<i class="fas fa-address-book"></i>```，这时候 fa-address-book 改为驼峰型，即：faAddressBook  
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'  
 library.add(faAddressBook)  
 <font-awesome-icon icon="address-book" />  
