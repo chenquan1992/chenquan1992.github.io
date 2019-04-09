@@ -15,4 +15,7 @@ keywords: 资源网站
 ## 4.[微信清除缓存](debugx5.qq.com)
 
 ## 5.[张爱玲经典语录](https://www.juzimi.com/writer/%E5%BC%A0%E7%88%B1%E7%8E%B2?page=1)
-## 5.[有赞 VUE 手机 UI 组件](https://github.com/youzan/vant)
+
+## 6.[有赞 VUE 手机 UI 组件](https://github.com/youzan/vant)
+## 7.[财务 VUE 手机 UI 组件](https://github.com/didi/mand-mobile)
+## 8.[基于 vue2.0 的实时聊天项目](https://github.com/hua1995116/webchat)
