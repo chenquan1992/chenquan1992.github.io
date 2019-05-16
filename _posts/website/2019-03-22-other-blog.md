@@ -13,3 +13,4 @@ keywords: 模板网站
 ## 3、[RabbitMQ 安装、启动](https://blog.csdn.net/nnsword/article/details/79544349)
 ## 4、[consul在windows下安装](https://blog.csdn.net/forezp/article/details/70188595)
 ## 5、[在vue中使用swiper4.x](https://www.cnblogs.com/cb1490838281/p/9648102.html)
+## 6、[微信小程序之保持登录状态即session不改变（Java）](https://www.cnblogs.com/gdutzyh/p/7251432.html)
