@@ -14,3 +14,4 @@ keywords: 模板网站
 ## 4、[consul在windows下安装](https://blog.csdn.net/forezp/article/details/70188595)
 ## 5、[在vue中使用swiper4.x](https://www.cnblogs.com/cb1490838281/p/9648102.html)
 ## 6、[微信小程序之保持登录状态即session不改变（Java）](https://www.cnblogs.com/gdutzyh/p/7251432.html)
+## 7、[IDEA类和方法注释模板设置（非常详细）](https://blog.csdn.net/xiaoliulang0324/article/details/79030752)
