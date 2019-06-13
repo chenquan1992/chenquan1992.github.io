@@ -18,3 +18,4 @@ keywords: 模板网站
 ## 8、[SQL SERVER逆向工程将数据库导入PowerDesigner](https://jingyan.baidu.com/article/20095761c98042cb0721b4fc.html)
 ## 9、[小程序接口加密](https://www.jianshu.com/p/4b136750bdea)
 ## 10、[pip3 install pyspider 出现的问题](https://www.cnblogs.com/kerbside/p/9630388.html)
+## 11、[pyspider all 出现的问题](https://blog.csdn.net/SiHann/article/details/88239892)
