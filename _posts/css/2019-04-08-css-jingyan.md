@@ -18,3 +18,16 @@ keywords: CSS
 
 > **<font color="#dd0000">2019-06-14 10:12</font>**  style="flex-grow: 1;text-align: right;"
 ![avatar](/images/css/20190614101501.png)  
+
+> **<font color="#dd0000">2019-06-14 16:40</font>**  在表单里面的，偶尔使用 span 也是不错的
+***
+<i-form>
+    <form-item >
+        <span style="font-size: 16px">积分提现：</span>
+        <i-switch @on-change="editWithDrawlPointSysStatus" v-model="reportData.withDrawlPointSysStatus" size="large">
+            <span slot="open">开启</span>
+            <span slot="close">关闭</span>
+        </i-switch>
+    </form-item>
+</i-form>
+***
