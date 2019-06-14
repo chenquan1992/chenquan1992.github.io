@@ -20,7 +20,7 @@ keywords: CSS
 ![avatar](/images/css/20190614101501.png)  
 
 > **<font color="#dd0000">2019-06-14 16:40</font>**  在表单里面的，偶尔使用 span 也是不错的
-***
+```html
 <i-form>
     <form-item >
         <span style="font-size: 16px">积分提现：</span>
@@ -30,4 +30,4 @@ keywords: CSS
         </i-switch>
     </form-item>
 </i-form>
-***
+```
