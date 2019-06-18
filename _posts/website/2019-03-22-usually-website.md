@@ -19,3 +19,7 @@ keywords: 资源网站
 ## 6.[有赞 VUE 手机 UI 组件](https://github.com/youzan/vant)
 ## 7.[财务 VUE 手机 UI 组件](https://github.com/didi/mand-mobile)
 ## 8.[基于 vue2.0 的实时聊天项目](https://github.com/hua1995116/webchat)
+
+## 9.[MyBatis 通用 Mapper4](https://github.com/abel533/Mapper/wiki)
+
+
