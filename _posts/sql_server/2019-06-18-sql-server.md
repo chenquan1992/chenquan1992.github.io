@@ -6,7 +6,8 @@ description: Spring MVC + sql server 整合通用 mapper
 keywords: sql server
 ---
 
-***爱上一个人,心会一直低,低到泥土里,在土里开出花来,如此卑微却又如此欣喜。***
+***爱上一个人,心会一直低,低到泥土里,在土里开出花来,如此卑微却又如此欣喜。***     
+<br>
 # pom 增加 jar 包
 ```xml
 <mapper.version>4.0.0</mapper.version> 
