@@ -18,6 +18,7 @@ keywords: Mysql
 [mysql索引类型 normal, unique, full text](https://www.cnblogs.com/cq-home/p/3482101.html)  
 [mysql数据库分库分表(Sharding)](https://www.cnblogs.com/mfmdaoyou/p/7246711.html)  
 [MySQL大数据量分页性能优化](https://www.cnblogs.com/lpfuture/p/5772055.html)  
+[报表查询](https://www.cnblogs.com/zhangs1986/p/4914125.html)  
 
         
     
