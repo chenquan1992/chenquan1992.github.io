@@ -22,6 +22,9 @@ keywords: Mysql
 [sql 报表](https://blog.csdn.net/qq_36445227/article/details/80993925)  
 [Mysql慢查询日志的使用 和 Mysql的优化](https://blog.csdn.net/m_nanle_xiaobudiu/article/details/79288257)  
 [mysql备份恢复详解](https://www.cnblogs.com/coshaho/p/7302419.html)  
+[MySQL高可用解决方案之keepalive+lvs+mysql](https://blog.csdn.net/Zhou20072724/article/details/84165293)  
+[maxscale 实现读写分离](https://www.cnblogs.com/itfenqing/p/6140029.html)  
+[MySQL 高可用：mysql+mycat实现数据库分片（分库分表）](https://blog.csdn.net/kk185800961/article/details/51147029)  
 
         
     
