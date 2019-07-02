@@ -20,3 +20,4 @@ keywords: 模板网站
 ## 10、[pip3 install pyspider 出现的问题](https://www.cnblogs.com/kerbside/p/9630388.html)
 ## 11、[pyspider all 出现的问题](https://blog.csdn.net/SiHann/article/details/88239892)
 ## 12、[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+## 12、[Linux top命令的用法详细详解](https://www.cnblogs.com/zhoug2020/p/6336453.html): 查看进程
