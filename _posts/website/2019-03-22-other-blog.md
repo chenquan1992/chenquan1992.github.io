@@ -22,6 +22,7 @@ keywords: 模板网站
 ## 12、[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 ## 13、[Linux top命令的用法详细详解](https://www.cnblogs.com/zhoug2020/p/6336453.html): 查看进程
 ## 14、[spring的Bean注入和P标签使用](https://www.cnblogs.com/xumaodun/p/4928136.html)
+## 15、[spring-自动加载配置文件\使用属性文件注入](https://www.cnblogs.com/yjmyzz/p/3604007.html)
 
 
 
