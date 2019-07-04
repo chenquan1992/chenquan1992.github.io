@@ -23,7 +23,7 @@ keywords: idea 插件
 5、<font color="#dd0000">Rainbow Brackets</font>  
 　　对各个对称括号进行着色，方便查看 
 
-6.<font color="#dd0000">Alibaba Java Coding Guidelines</font>  
+6、<font color="#dd0000">Alibaba Java Coding Guidelines</font>  
 　　阿里巴巴代码规范检查插件，当然规范可以参考《阿里巴巴Java开发手册》。
 
 信息来源：https://mp.weixin.qq.com/s/069Zg22VSNCIXVHlRxcPzw
