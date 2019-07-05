@@ -6,7 +6,7 @@ description: idea 插件
 keywords: idea 插件
 ---
 
-*** 情，亲情我们之间无所不有，却唯独没有爱情。***
+***情，亲情我们之间无所不有，却唯独没有爱情***
 
 1、<font color="#dd0000">Grep console</font>   
 　　自定义日志颜色，idea控制台可以彩色显示各种级别的log，安装完成后，在console中右键就能打开。
