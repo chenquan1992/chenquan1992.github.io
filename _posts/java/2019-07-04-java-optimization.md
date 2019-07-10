@@ -16,4 +16,9 @@ keywords: 性能优化
 5、less a.txt  查看 a.txt  
 6、/关键词（1d90）  enter （回车搜索） N 向上搜索 n向下搜索，找到这个线程，查看具体的堆栈信息  
 
+## 2、[Linux 下如何查看哪个进程占用内存多？](https://blog.csdn.net/qq_37960324/article/details/85156932)
+## 3、[linux 实时监控系统IO状态和IO性能（iostat命令解析）](https://blog.csdn.net/li_wen01/article/details/82683627)
+## 4、[CentOS 7 安装部署 zabbix3.4 性能监控](https://blog.51cto.com/andyxu/2120362)
+
+
 
