@@ -22,4 +22,8 @@ keywords: 资源网站
 
 ## 9.[MyBatis 通用 Mapper4](https://github.com/abel533/Mapper/wiki)
 
+## 10.[jekyllthemes 主题模板](http://jekyllthemes.org/)
+## 11.[下载 Jekyll，并使用它在本地搭建一个博客](https://www.jianshu.com/p/f43a75ed16d0)
+
+
 
