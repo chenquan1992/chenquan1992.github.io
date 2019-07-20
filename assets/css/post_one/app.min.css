@@ -1963,91 +1963,91 @@ main {
     border-top: 1px solid rgba(0,0,0,.1)
 }
 
-/*#markdown {*/
-    /*display: -webkit-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: flex;*/
-    /*-webkit-box-orient: vertical;*/
-    /*-webkit-box-direction: normal;*/
-    /*-ms-flex-direction: column;*/
-    /*flex-direction: column;*/
-    /*-webkit-box-align: center;*/
-    /*-ms-flex-align: center;*/
-    /*align-items: center*/
-/*}*/
+#markdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
 
-/*#style-guide #markdown,.post-layout #markdown {*/
-    /*font-family: Lora,serif*/
-/*}*/
+#style-guide #markdown,.post-layout #markdown {
+    font-family: Lora,serif
+}
 
-/*#markdown>* {*/
-    /*min-width: 100%*/
-/*}*/
+#markdown>* {
+    min-width: 100%
+}
 
-/*#markdown>:first-child {*/
-    /*margin-top: 0*/
-/*}*/
+#markdown>:first-child {
+    margin-top: 0
+}
 
-/*#markdown>:last-child {*/
-    /*margin-bottom: 0*/
-/*}*/
+#markdown>:last-child {
+    margin-bottom: 0
+}
 
-/*#markdown h1,#markdown h2,#markdown h3,#markdown h4,#markdown h5,#markdown h6 {*/
-    /*margin-bottom: .5rem;*/
-    /*font-family: Roboto,sans-serif*/
-/*}*/
+#markdown h1,#markdown h2,#markdown h3,#markdown h4,#markdown h5,#markdown h6 {
+    margin-bottom: .5rem;
+    font-family: Roboto,sans-serif
+}
 
-/*#markdown h1 {*/
-    /*font-size: 2.25em;*/
-    /*line-height: 1.2*/
-/*}*/
+#markdown h1 {
+    font-size: 2.25em;
+    line-height: 1.2
+}
 
-/*#markdown h2 {*/
-    /*font-size: 2em;*/
-    /*line-height: 1.2*/
-/*}*/
+#markdown h2 {
+    font-size: 2em;
+    line-height: 1.2
+}
 
-/*#markdown h3 {*/
-    /*font-size: 1.75em;*/
-    /*line-height: 1.3*/
-/*}*/
+#markdown h3 {
+    font-size: 1.75em;
+    line-height: 1.3
+}
 
-/*#markdown h4 {*/
-    /*font-size: 1.5em;*/
-    /*line-height: 1.3*/
-/*}*/
+#markdown h4 {
+    font-size: 1.5em;
+    line-height: 1.3
+}
 
-/*#markdown h5 {*/
-    /*font-size: 1.25em;*/
-    /*line-height: 1.4*/
-/*}*/
+#markdown h5 {
+    font-size: 1.25em;
+    line-height: 1.4
+}
 
-/*#markdown h6 {*/
-    /*font-size: 1.1em*/
-/*}*/
+#markdown h6 {
+    font-size: 1.1em
+}
 
-/*#style-guide #markdown h6+hr {*/
-    /*margin-top: 1rem*/
-/*}*/
+#style-guide #markdown h6+hr {
+    margin-top: 1rem
+}
 
-/*#markdown p {*/
-    /*margin-bottom: 1.5rem;*/
-    /*font-size: 1.1em*/
-/*}*/
+#markdown p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1em
+}
 
-/*@media (min-width:32em) {*/
-    /*#markdown p {*/
-        /*font-size: 1.25em*/
-    /*}*/
-/*}*/
+@media (min-width:32em) {
+    #markdown p {
+        font-size: 1.25em
+    }
+}
 
-/*#markdown p img {*/
-    /*margin-bottom: 0*/
-/*}*/
+#markdown p img {
+    margin-bottom: 0
+}
 
-/*#markdown blockquote p {*/
-    /*margin-bottom: 0*/
-/*}*/
+#markdown blockquote p {
+    margin-bottom: 0
+}
 
 /*#markdown a {*/
     /*color: #000;*/
@@ -2056,36 +2056,36 @@ main {
     /*box-shadow: inset 0 -3px 0 #bbb*/
 /*}*/
 
-/*#markdown hr {*/
-    /*height: 1px;*/
-    /*width: 100%;*/
-    /*margin-top: 0;*/
-    /*margin-bottom: 1.5rem;*/
-    /*border: 0;*/
-    /*background-color: rgba(0,0,0,.1)*/
-/*}*/
+#markdown hr {
+    height: 1px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border: 0;
+    background-color: rgba(0,0,0,.1)
+}
 
-/*#markdown br {*/
-    /*display: none*/
-/*}*/
+#markdown br {
+    display: none
+}
 
-/*#markdown img {*/
-    /*display: block;*/
-    /*margin-bottom: 1.5rem*/
-/*}*/
+#markdown img {
+    display: block;
+    margin-bottom: 1.5rem
+}
 
-/*#markdown img[src$="#full"] {*/
-    /*width: 100vw;*/
-    /*max-width: none*/
-/*}*/
+#markdown img[src$="#full"] {
+    width: 100vw;
+    max-width: none
+}
 
-/*#markdown .flex-vid {*/
-    /*margin-bottom: 1.5rem*/
-/*}*/
+#markdown .flex-vid {
+    margin-bottom: 1.5rem
+}
 
-/*#markdown .flex-vid iframe {*/
-    /*display: block*/
-/*}*/
+#markdown .flex-vid iframe {
+    display: block
+}
 
 .posts {
     padding: 1em 1em 3em
