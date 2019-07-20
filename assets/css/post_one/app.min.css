@@ -3066,19 +3066,19 @@ section {
     /*}*/
 /*}*/
 
-@media (min-width:54em) {
-    .section-padding {
-        padding-right: 1em;
-        padding-left: 1em
-    }
-}
+/*@media (min-width:54em) {*/
+    /*.section-padding {*/
+        /*padding-right: 1em;*/
+        /*padding-left: 1em*/
+    /*}*/
+/*}*/
 
-@media (min-width:91em) {
-    .section-padding {
-        padding-top: 4em;
-        padding-bottom: 4em
-    }
-}
+/*@media (min-width:91em) {*/
+    /*.section-padding {*/
+        /*padding-top: 4em;*/
+        /*padding-bottom: 4em*/
+    /*}*/
+/*}*/
 
 .section-padding--double {
     padding: 4em 1em
