@@ -6,13 +6,18 @@ layout: default
         <div class="post__header section-padding--double">
             <div class="grid-small">
                 <h2>{{ page.title }}</h2>
+                {% if page.date %}
+                <span class="meta-info">
+                    <span class="octicon "></span> {{ page.date | date: "%Y/%m/%d" }}
+                </span>
+                {% endif %}
             </div>
         </div>
 
         {% if page.image %}
         <div class="post__img">
             <div>
-                <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+                <figure class="absolute-bg" style=" background-image: url('{{ page.image }}');"></figure>
             </div>
         </div>
         {% endif %}
@@ -21,6 +26,9 @@ layout: default
             <div class="grid">
                 <div id="markdown">
                     {{content}}
+                </div>
+                <div class="comment">
+                    {% include comments.html %}
                 </div>
             </div>
         </div>

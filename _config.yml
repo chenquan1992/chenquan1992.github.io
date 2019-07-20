@@ -8,7 +8,7 @@ title: 月下陈铨
 subtitle: "天下的男人都是一样混账"
 description: "陈铨的个人博客"
 keywords: 陈铨, Chen Quan, Chen, Quan
-timezone: Asia/Shanghai
+#timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -67,7 +67,7 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
@@ -75,6 +75,7 @@ gems:
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
+    - jekyll-figure
 #     - jekyll-mentions
 collections:
     wiki:
@@ -124,5 +125,3 @@ simple_jekyll_search:
 google:
     analytics_id: UA-80669434-1
 
-plugins:
-  - jekyll-figure
