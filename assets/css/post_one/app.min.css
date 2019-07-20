@@ -3060,11 +3060,11 @@ section {
     padding: 2em 1em
 }
 
-@media (min-width:32em) {
-    .section-padding {
-        padding: 3em 2em
-    }
-}
+/*@media (min-width:32em) {*/
+    /*.section-padding {*/
+        /*padding: 3em 2em*/
+    /*}*/
+/*}*/
 
 @media (min-width:54em) {
     .section-padding {
