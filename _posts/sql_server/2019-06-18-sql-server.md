@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring MVC + sql server 整合通用 mapper
-categories: sql server
+categories: sqlserver
 description: Spring MVC + sql server 整合通用 mapper
 keywords: sql server
 ---
