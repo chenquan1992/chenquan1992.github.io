@@ -8,7 +8,7 @@ keywords: 基础工具类
 
 ***爱上一个人的时候，总会有点害怕，怕得到他；怕失掉他。***
 
-### 1、Mybatis 打印可执行 Mysql 语句
+## 1、Mybatis 打印可执行 Mysql 语句
 切记：以后对于复制的代码，特别注意关键词不能重复，例如 method、created 等等！
 ```java
 public class MybatisSqlGenerator {
