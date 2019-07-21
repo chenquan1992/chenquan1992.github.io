@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/responsive.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/posts/index.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/post_one/app.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/zoom/zoom.css">
     <!-- Latest compiled and minified CSS -->
     {% for css in page.css %}
     <link rel="stylesheet" href="{{ site.url }}/assets/css/{{css}}">
@@ -70,6 +71,17 @@
     <script src="{{ site.url }}/assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery-ui.js"></script>
     <script src="{{ site.url }}/assets/js/main.js"></script>
+    <script src="{{ site.url }}/assets/zoom/zoom.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/transition.js"></script>
+    <script type='text/javascript'>
+        // 给所有图片加上 data-action 属性，方便放大图片
+        $(function(){
+            const imgArr = $('img');
+            imgArr.each((idx, img) => {
+                $(img).attr('data-action', 'zoom');
+            });
+        });
+    </script>
 </head>
 <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">
