@@ -1074,10 +1074,10 @@ button:hover:after {
     transform: translate3d(3px,-3px,0)
 }
 
-code,kbd,pre,samp {
-    font-family: Courier,monospace;
-    font-size: .9em
-}
+/*code,kbd,pre,samp {*/
+    /*font-family: Courier,monospace;*/
+    /*font-size: .9em*/
+/*}*/
 
 pre {
     margin-top: 0;
@@ -1116,7 +1116,7 @@ pre code {
 code {
     padding: .25em .5em;
     color: #000;
-    background: #f8f8f8
+    /*background: #f8f8f8*/
 }
 
 form {
@@ -1910,9 +1910,9 @@ main {
     background-color: #f8f8f8
 }
 
-.post__content {
-    border-top: 1px solid rgba(0,0,0,.1)
-}
+/*.post__content {*/
+    /*border-top: 1px solid rgba(0,0,0,.1)*/
+/*}*/
 
 .post__social {
     margin-top: 2em;
@@ -3056,9 +3056,9 @@ section {
     position: relative
 }
 
-.section-padding {
-    padding: 2em 1em
-}
+/*.section-padding {*/
+    /*padding: 2em 1em*/
+/*}*/
 
 /*@media (min-width:32em) {*/
     /*.section-padding {*/
@@ -3148,21 +3148,24 @@ section {
 }
 
 .grid {
-    width: 100%;
-    max-width: 45em
+    width: auto;
+    max-width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*max-width: 45em*/
 }
 
-@media (min-width:54em) {
-    .grid {
-        width: 65%
-    }
-}
+/*@media (min-width:54em) {*/
+    /*.grid {*/
+        /*width: 65%*/
+    /*}*/
+/*}*/
 
-@media (min-width:91em) {
-    .grid {
-        width: 50%
-    }
-}
+/*@media (min-width:91em) {*/
+    /*.grid {*/
+        /*width: 50%*/
+    /*}*/
+/*}*/
 
 .grid-small {
     width: 100%;
@@ -3230,4 +3233,7 @@ footer,main {
 
 .error-template footer,.error-template main {
     opacity: 1
+}
+.highlight{
+    background: #f8f8f8;
 }
