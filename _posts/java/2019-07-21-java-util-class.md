@@ -44,6 +44,7 @@ public class MybatisSqlGenerator {
         System.out.println(sqlNew);
     }
 
+    // 转载：https://blog.csdn.net/liufang1991/article/details/51243642
 }
 ```
 
