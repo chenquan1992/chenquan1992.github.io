@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_two
 title: sql server 存储过程
 categories: sqlserver
 description: sql server 存储过程
