@@ -806,9 +806,9 @@
     letter-spacing: .01em
 }
 
-.contact__mast,.form__submit,.mast,.post__header,.posts__pagination,.related__text,.related__title,.subscribe__error,.subscribe__text,.subscribe__title,blockquote,q {
-    text-align: center
-}
+/*.contact__mast,.form__submit,.mast,.post__header,.posts__pagination,.related__text,.related__title,.subscribe__error,.subscribe__text,.subscribe__title,blockquote,q {*/
+    /*text-align: center*/
+/*}*/
 
 .contact,.contact__content,.footer__social,.footer__tags,.post__social {
     display: -webkit-box;
