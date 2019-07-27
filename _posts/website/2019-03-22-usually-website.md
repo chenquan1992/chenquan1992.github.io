@@ -9,6 +9,7 @@ keywords: 资源网站
 ***抄袭是最隆重的赞美。***
 
 ## 1.[外国网页模板 colorlib](https://colorlib.com/wp/free-html5-contact-form-templates/)
+## 1.[个人信息表单模板 colorlib](https://colorlib.com/wp/free-bootstrap-wizards/)
 ## 2.[外国网页模板 startbootstrap](https://startbootstrap.com/)
 
 ## 3.[微信公众号debugger](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandboxndex)
