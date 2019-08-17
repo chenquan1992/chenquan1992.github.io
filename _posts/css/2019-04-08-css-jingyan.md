@@ -31,3 +31,16 @@ keywords: CSS
     </form-item>
 </i-form>
 ```
+
+2、苹果 移动端 position:fixed 滑动问题
+```html
+<!--错误写法-->
+<div style=" overflow : scroll">
+     <div style="position:fixed"></div>
+</div>
+```
+```html
+<!--正确写法，应该将两个属性按照同级使用不能用包含的形式-->
+ <div style="position:fixed"></div>
+<div style=" overflow : scroll"></div>
+```
