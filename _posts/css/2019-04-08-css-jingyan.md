@@ -8,7 +8,7 @@ keywords: CSS
 
 ***男人彻底懂得一个女人之后，是不会爱她的。***
 
-1、CSS 样式修改  
+## 1、CSS 样式修改  
 > 如果选中的 div 的大小或者 style 没有你要的，那就点点他周围的 div，或许有意外的发现呢  
 
 > **<font color="#dd0000">2018-12-04 20:30</font>**  就像今晚在看一个自适应的 img，一直找不到他的大小，应该说知道大小是 width:100%，那就一定是他包围着的 div 控制的大小，如果这个 div 还看不到大小，那肯定还有一个 div 在控制着这个 div 的大小了，总着周围的 div 多点出来看看，总有意外的发现的额，第二次
@@ -32,7 +32,7 @@ keywords: CSS
 </i-form>
 ```
 
-2、苹果 移动端 position:fixed 滑动问题
+## 2、苹果 移动端 position:fixed 滑动问题
 ```html
 <!--错误写法-->
 <div style=" overflow : scroll">
@@ -43,4 +43,95 @@ keywords: CSS
 <!--正确写法，应该将两个属性按照同级使用不能用包含的形式-->
  <div style="position:fixed"></div>
 <div style=" overflow : scroll"></div>
+```
+
+## 3、使用 mint-ui 的上拉下滑必须使用以下属性
+```html
+ <div class="wrapper" style="height:100vh;overflow-y:scroll;-webkit-overflow-scrolling:touch" ></div>
+```
+
+## 4、vue 回到顶部组件
+```vue
+<template>
+    <div class="gotoTop">
+        <img class="go-top" v-if="btnFlag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEE0lEQVRoQ92ayUsrQRCHa9S4axT0ICqagwui4r4dBJf/2IOXJIIH44aGKOJycMeDgnvcncevoMMkmSQ9Mz2T5xQMPHyd6v66qqurakbTdV0nBfL29kZ3d3f08PBAr6+v/Hx9fdH39zdrLysro0AgQDU1Nfw0NDRQU1MTVVVVKZidSHMCkkwm6erqih8s3I4Aqq2tjZ/q6mo7Kvg3tkAeHx/p5OSEbm5ubE9s9sOWlhbq6uqiYDBoWa8lkI+PDzo4OGALuCmwTl9fH1VUVEhPIw1yfX1Ne3t77PdeCM7TwMAAtba2Sk1XEOT395f29/fp/PxcSqHqQR0dHdTf308lJSV5VecFQcTZ2triaFRMQXQbHx/nyJdLcoIAIhaLcTj9HwThenp6OieMKQjcaWNjo+iWyNxAWGZyctLUzUxBEolE0c5EIevjzAwODmYNywJBdNrZ2Smkr6j/PzIykhXN0kBwT6ysrHgWYu3uBkLz3Nxc2j2TBrK7u2vpskOeVCgsyi4W5xL5mqzg0hweHk4NT4Eg7VhdXZXVQ729vZxOqBSkPYeHh9IqZ2dnU+lMCmR7e9tS7tTT00Pd3d3Sk8oMPD4+pqOjI5mhPAa52djYGP+bQZDFRiIRaQViIHIhla6FM2pVFhYWOGtmEKs7YWUyAYoz4IYIz2CQaDRqu57It7i6ujqampriIevr6/T8/KycBfXM/Pw8aclkUg+Hw8onqK+v55SivLycdX9+ftLa2porMIuLi6RdXFzo8XhcKUgmhFAOGORvT09PSucbGhoiLZFI6GdnZ8oUo7qDO8ESOBfijPz8/FBpaSlbBm6GcK9KOjs7SYvFYvrt7a0SnchQAYGbFwtGITY6Osq6Nzc3CTsHQBRnsIwqmObmZtLC4TCHX6dihEAYxULRoEEqAcE5RD2Bc4OwDRhYRkWZwOF3eXlZd1q+NjY2cnoNSwgIRKja2to0EKQgiGRGGJQL9/f3jvYR82pLS0tOOkIECLgTdvv9/Z0t8fLywgszAxF/B0xlZSX3vWAZJzCapjkDMVZtgEB4Nfa3coGYwTipRhnEiWuhKRAKhdgSmRD5LCL8CJfZzMwMW+b09JSbHHaEXcvJYccC2tvbOfU3S8HzWUQsGKUAUvLLy0veEDvCh11l+M1chAyInYVn/obDr+oL0TiJVyB8IbqRoggYr0A4RXEraZQ57CrcCjo4aXQzjffCIqk03s3CyguQtMLKbqlbyDW8AEkrdbEgq82HQhBenJGs5gMmtdoOkgFB6jAxMcF1Cbr6qsW0HYRJrDboVC/Mir6cDToo8U3LFDC+aGIL0/ritQJgfPOiBzC+ePUmXMwXL0MFjC9eTxvj+p//YMAI44tPOIxAf/6jmswU4s9/5mSWExX7w7N/RVwpTJxVLTkAAAAASUVORK5CYII=" @click="backTop">
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "GotoTop",
+        data() {
+            return {
+                btnFlag: false,
+                scrollTop: 0,
+            }
+        },
+        mounted () {
+            window.addEventListener('scroll', this.scrollToTop, true)
+        },
+        destroyed () {
+            window.removeEventListener('scroll', this.scrollToTop,true)
+        },
+
+
+        methods: {
+            // 点击图片回到顶部方法，加计时器是为了过渡顺滑
+            backTop () {
+                const that = this
+                let timer = setInterval(() => {
+                    let ispeed = Math.floor(-that.scrollTop / 5)
+                    let dom =document.getElementsByClassName('wrapper')[0];
+                    dom.scrollTop = that.scrollTop + ispeed;
+                    if (that.scrollTop === 0 || that.scrollTop === 1) {
+                        clearInterval(timer)
+                    }
+                }, 16)
+            },
+
+            // 为了计算距离顶部的高度，当高度大于 120 显示回顶部图标，小于 120 则隐藏
+            scrollToTop () {
+                const that = this
+                // 获取到某一个元素，然后获取他的属性值
+                let dom =document.getElementsByClassName('wrapper')[0];
+                let scrollTop = dom.scrollTop;
+
+                that.scrollTop = scrollTop
+                if (that.scrollTop > 120) {
+                    that.btnFlag = true
+                } else {
+                    that.btnFlag = false
+                }
+            }
+        }
+    }
+</script>
+
+<style scoped>
+    .go-top{
+        position: fixed;
+        bottom: 60px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: #fff;
+        border-radius: 50%;
+        z-index: 99;
+    }
+</style>
+
+```
+
+## 5、document
+```javascript
+    // 获取到某一个元素，然后获取他的属性值
+    let dom =document.getElementsByClassName('wrapper')[0];
+    let scrollTop = dom.scrollTop;
+    // 也可以直接赋值改变他的属性值
+    dom.scrollTop = 0;
+    
+    // 这些是获取 body、等其他的大方面的 scrollTop（滚动条的位置） 
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
 ```
