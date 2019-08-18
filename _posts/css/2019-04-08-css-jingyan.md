@@ -123,7 +123,7 @@ keywords: CSS
 
 ```
 
-## 5、document
+## 5、document 获取滚动条的位置
 ```javascript
     // 获取到某一个元素，然后获取他的属性值
     let dom =document.getElementsByClassName('wrapper')[0];
@@ -134,4 +134,18 @@ keywords: CSS
     // 这些是获取 body、等其他的大方面的 scrollTop（滚动条的位置） 
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
 
+```
+
+## 6、document 获取全局点击属性
+```javascript
+    let body = document.querySelector('body')
+    body.addEventListener('touchstart',(e)=>{ // 手机屏幕用的是 touchstart
+        // debugger
+        console.log(e.target.offsetParent.className )
+        // 忽略掉原来的 div，不然会冲突，看不到效果
+        if(e.target.parentElement.className != 'mobile-menu-icon' && e.target.parentElement.className != 'col-lg-6 col-md-8 col-sm-9' && e.target.offsetParent.className != 'tm-nav show'){
+            // debugger
+            this.tabbar = false
+        }
+    },false)
 ```
