@@ -149,3 +149,14 @@ keywords: CSS
         }
     },false)
 ```
+
+## 7、弹窗之后父窗口还会滚动
+```javascript
+    // 打开弹窗时修改属性
+    document.getElementsByClassName('wrapper')[0].style.position = 'fixed';
+    document.getElementsByClassName('wrapper')[0].style.overflow = 'hidden';
+
+    // 关闭弹窗时修改成原来的属性
+    document.getElementsByClassName('wrapper')[0].style.position = 'relative';
+    document.getElementsByClassName('wrapper')[0].style.overflow = 'scroll';
+```
