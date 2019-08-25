@@ -196,3 +196,7 @@ keywords: CSS
 ```
 记：这样，在每次【触发事件】组件的点击事件中，就会把 event.target 传递到【监听事件】中，并console出来。
 
+## 10、ios 中 z-index 失效导致的坑
+1、页面上加上 ios 的弹性滑动属性 -webkit-overflow-scrolling: touch 会导致苹果上 z-index 属性失效，安卓正常  
+将弹性滑动属性的css全局样式-webkit-overflow-scrolling: touch去掉后z-index属性正常。
+
