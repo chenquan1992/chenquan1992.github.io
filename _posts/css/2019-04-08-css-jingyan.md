@@ -160,3 +160,39 @@ keywords: CSS
     document.getElementsByClassName('wrapper')[0].style.position = 'relative';
     document.getElementsByClassName('wrapper')[0].style.overflow = 'scroll';
 ```
+
+## 8、CSS 消除 ios 点击按钮时出现的一个半透明的灰色背景
+```stylus
+    body{
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+```
+
+## 9、兄弟组件通信 —— eventBus 的用法
+1、新建eventBus.js
+```javascript
+    import Vue from 'vue'
+    export default new Vue()
+```
+2、触发事件 —— 用来被监听
+```javascript
+    import eventBus from './eventBus'
+    //...
+    methods: {  
+       addCart(event) {  
+            eventBus.$emit('getTarget', event.target);   
+       }  
+    } 
+```
+3、监听事件 —— 之后调用
+```javascript
+   import eventBus from './eventBus'
+
+   created () {
+     eventBus.$on('getTarget', args => {
+        console.log(args);  
+     }) 
+   }
+```
+记：这样，在每次【触发事件】组件的点击事件中，就会把 event.target 传递到【监听事件】中，并console出来。
+
