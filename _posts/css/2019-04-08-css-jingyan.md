@@ -206,6 +206,7 @@ keywords: CSS
 ```javascript
 // data 为需要传递的值,这个方法是获取父窗口的函数，然后从子窗口传值给父窗口
 // 这个获取到的是兄弟窗口
+// 鼠标移动到属性值上，它会教你怎么获取那个值，如果写法错误，那么获取不到值
  parent.document["layui-layer-iframe1"].vm.getChildrenData(this.select_data);
 
   getChildrenData(data){
