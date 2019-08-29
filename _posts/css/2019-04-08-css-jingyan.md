@@ -200,3 +200,35 @@ keywords: CSS
 1、页面上加上 ios 的弹性滑动属性 -webkit-overflow-scrolling: touch 会导致苹果上 z-index 属性失效，安卓正常  
 将弹性滑动属性的css全局样式-webkit-overflow-scrolling: touch去掉后z-index属性正常。
 
+## 11、console.log(parent)
+1、打印出来之后只能自己根据需要一个一个找了
+例：layui 查找弹窗之后的兄弟弹窗
+```javascript
+// data 为需要传递的值,这个方法是获取父窗口的函数，然后从子窗口传值给父窗口
+// 这个获取到的是兄弟窗口
+ parent.document["layui-layer-iframe1"].vm.getChildrenData(this.select_data);
+
+  getChildrenData(data){
+            console.log('从子页面传递回到数据：');
+            console.log(data);
+        }
+```
+
+## 12、layui 父页面获取子页面（弹窗）的值：
+```javascript
+    $(document).ready(function() {
+     
+        //拿到子窗口中传回的数据
+         function getChildrenData(data){
+            console.log('从子页面传递回到数据：');
+            console.log(data);
+            
+         }
+     
+    });
+// 原文链接：https://blog.csdn.net/qq_38313548/article/details/92636914
+```
+子页面调用父页面的取值方法：
+```javascript
+    parent.getChildrenData(data);//data为需要传递的值
+```
