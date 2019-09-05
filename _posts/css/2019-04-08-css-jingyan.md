@@ -234,3 +234,12 @@ keywords: CSS
 ```javascript
     parent.getChildrenData(data);//data为需要传递的值
 ```
+
+## 13、绝对定位 与 相对定位
+绝对定位：position:absolute  
+相对定位：position:relative  
+绝对定位使用通常是父级定义 position:relative 定位，子级定义 position:absolute 绝对定位属性，并且子级使用 left 或 right 和 top 或 bottom 进行绝对定位。
+自己的个人中心模板就是一个例子
+
+## 13、关于行内图标字体与普通文字的垂直居中对齐问题的研究
+https://www.jianshu.com/p/afbe7fd1dbe7
