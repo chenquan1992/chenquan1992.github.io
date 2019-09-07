@@ -234,3 +234,11 @@ keywords: CSS
 ```javascript
     parent.getChildrenData(data);//data为需要传递的值
 ```
+
+## 13、css 中单位 em 和 rem 的区别
+em相对于父元素，rem相对于根元素。  
+像素（px）：用于元素的边框或定位。  
+em/rem：用于做响应式页面，不过我更倾向于rem，因为em不同元素的参照物不一样（都是该元素父元素），所以在计算的时候不方便，
+相比之下rem就只有一个参照物（html元素），这样计算起来更清晰。
+
+## 13、[移动端 rem.js 的使用方法](https://www.cnblogs.com/agansj/p/8243880.html)
