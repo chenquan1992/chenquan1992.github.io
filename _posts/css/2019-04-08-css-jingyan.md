@@ -235,10 +235,19 @@ keywords: CSS
     parent.getChildrenData(data);//data为需要传递的值
 ```
 
-## 13、css 中单位 em 和 rem 的区别
+## 13、绝对定位 与 相对定位
+绝对定位：position:absolute  
+相对定位：position:relative  
+绝对定位使用通常是父级定义 position:relative 定位，子级定义 position:absolute 绝对定位属性，并且子级使用 left 或 right 和 top 或 bottom 进行绝对定位。
+自己的个人中心模板就是一个例子
+
+## 14、关于行内图标字体与普通文字的垂直居中对齐问题的研究
+https://www.jianshu.com/p/afbe7fd1dbe7
+
+## 15、css 中单位 em 和 rem 的区别
 em相对于父元素，rem相对于根元素。  
 像素（px）：用于元素的边框或定位。  
 em/rem：用于做响应式页面，不过我更倾向于rem，因为em不同元素的参照物不一样（都是该元素父元素），所以在计算的时候不方便，
 相比之下rem就只有一个参照物（html元素），这样计算起来更清晰。
 
-## 13、[移动端 rem.js 的使用方法](https://www.cnblogs.com/agansj/p/8243880.html)
+## 16、[移动端 rem.js 的使用方法](https://www.cnblogs.com/agansj/p/8243880.html)
