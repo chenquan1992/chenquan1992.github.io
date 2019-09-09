@@ -93,6 +93,7 @@ keywords: CSS
             scrollToTop () {
                 const that = this
                 // 获取到某一个元素，然后获取他的属性值
+                // 这个 wrapper 的 scrollTop 还不是一般就能获取到的，好像是还要设置固定 height: 100vh 和 overflow-y: scroll 的类名才能获取到的
                 let dom =document.getElementsByClassName('wrapper')[0];
                 let scrollTop = dom.scrollTop;
 
