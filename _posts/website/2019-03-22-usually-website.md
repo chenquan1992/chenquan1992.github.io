@@ -36,6 +36,8 @@ keywords: 资源网站
 ## 12.[vue.js Examples ](https://vuejsexamples.com/)
 ## 12.[免费前端](https://freefrontend.com/css-cards/)
 
+## 13.[百度网盘搜索——盘多多](http://www.panduoduo.net)
+
 
 
 
