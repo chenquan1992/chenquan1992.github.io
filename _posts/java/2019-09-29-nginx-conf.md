@@ -9,7 +9,7 @@ keywords: 常用命令
 ***我爱你，为了你的幸福，我愿意放弃一切--包括你。***
 
 在 Tomcat 中配置使用 https 之后，本以为可以直接使用 wss，但是尝试过好像两者不能并存，故使用 nginx 反向代理使用 wss，下面是 nginx.conf 的配置文件
-```lombok.config
+```properties
 
 worker_processes  1;
 
@@ -65,6 +65,11 @@ http {
 }
 
 ```
+nginx -t  
+这可以检查配置文件中是否有错
 
+nginx -s reload
+修改配置之后不必重启，nginx 可以重新加载文件的
 
+转载：https://www.cnblogs.com/mao2080/p/7772893.html
 
