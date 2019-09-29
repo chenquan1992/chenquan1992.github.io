@@ -9,7 +9,7 @@ keywords: 常用命令
 ***我爱你，为了你的幸福，我愿意放弃一切--包括你。***
 
 在 Tomcat 中配置使用 https 之后，本以为可以直接使用 wss，但是尝试过好像两者不能并存，故使用 nginx 反向代理使用 wss，下面是 nginx.conf 的配置文件
-```properties
+```lombok.config
 
 worker_processes  1;
 
