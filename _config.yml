@@ -11,9 +11,6 @@ keywords: 陈铨, Chen Quan, Chen, Quan
 #timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-site:
-  title: 增广贤文
-  url: https://so.gushiwen.org/guwen/bookv_5483.aspx
 
 # ---------------- #
 #      Author      #
@@ -24,6 +21,9 @@ organization_url:
 #github_username: chenquan1992
 location: jieyang, China
 email: 504996366@qq.com
+
+bookTitle: 增广贤文
+bookUrl: https://so.gushiwen.org/guwen/bookv_5483.aspx
 
 # ---------------- #
 #    Navigation    #
