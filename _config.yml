@@ -5,7 +5,7 @@ baseurl:
 url: https://chenquan1992.github.io
 date_format: "ordinal"
 title: 月下陈铨
-subtitle: "天下的男人都是一样混账"
+subtitle: "昔时贤文，诲汝谆谆"
 description: "陈铨的个人博客"
 keywords: 陈铨, Chen Quan, Chen, Quan
 #timezone: Asia/Shanghai
@@ -16,11 +16,14 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: Chen Quan
-organization: 
-organization_url: 
+organization:
+organization_url:
 #github_username: chenquan1992
 location: jieyang, China
 email: 504996366@qq.com
+
+book_title: 增广贤文
+book_url: https://so.gushiwen.org/guwen/bookv_5483.aspx
 
 # ---------------- #
 #    Navigation    #
@@ -93,7 +96,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: mzlogin

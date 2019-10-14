@@ -10,7 +10,8 @@ keywords: sql server
 
 # pom 增加 jar 包
 ```xml
-<mapper.version>4.0.0</mapper.version> 
+<!-- 版本要用 4.1.5 的，不然会有其他问题-->
+<mapper.version>4.1.5</mapper.version> 
  <dependency>
       <groupId>tk.mybatis</groupId>
       <artifactId>mapper</artifactId>
