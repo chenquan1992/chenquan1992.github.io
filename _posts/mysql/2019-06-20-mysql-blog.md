@@ -24,7 +24,11 @@ keywords: Mysql
 [mysql备份恢复详解](https://www.cnblogs.com/coshaho/p/7302419.html)  
 [MySQL高可用解决方案之keepalive+lvs+mysql](https://blog.csdn.net/Zhou20072724/article/details/84165293)  
 [maxscale 实现读写分离](https://www.cnblogs.com/itfenqing/p/6140029.html)  
-[MySQL 高可用：mysql+mycat实现数据库分片（分库分表）](https://blog.csdn.net/kk185800961/article/details/51147029)  
+[MySQL 高可用：mysql+mycat实现数据库分片（分库分表）](https://blog.csdn.net/kk185800961/article/details/51147029) 
+
+
+[MySQL 中进行树状所有子节点的查询 MySQL 树查询所有子](https://blog.csdn.net/javadhh/article/details/48622743) 
+
 
         
     
