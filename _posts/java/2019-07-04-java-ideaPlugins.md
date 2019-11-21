@@ -26,4 +26,7 @@ keywords: idea 插件
 6、<font color="#dd0000">Alibaba Java Coding Guidelines</font>  
 　　阿里巴巴代码规范检查插件，当然规范可以参考《阿里巴巴Java开发手册》。
 
+7、<font color="#dd0000">pojo to json</font>  
+　　实体类转换成 json，右键实体名称 - makejson
+
 信息来源：https://mp.weixin.qq.com/s/069Zg22VSNCIXVHlRxcPzw
